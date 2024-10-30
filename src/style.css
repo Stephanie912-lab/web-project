@@ -68,14 +68,17 @@ body {
   
   .weather-app-temperature-container {
     display: flex;
+
   }
   
   .weather-app-icon {
     width: 80px;
     height: 70px;
+    display: block;
+    margin: 0 auto;
   }
   
-  .weather-app-temperature {
+  .weather-app-temperatures {
     font-size: 70px;
     margin-left: 10px;
     font-weight: bold;
